@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validazione Form</title>
+    <!-- FILE CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- MESSAGGIO DI ESITO POSITIVO -->
+        <div id="successMessage">Ti sei registrato. Congratulazioni!</div>
+
+        <!-- MESSAGGIO DI ERRORE -->
+        <div id="errorMessage"></div>
+        
+        <!-- FORM -->
+        <div class="form-element">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="yourname@gmail.com">
+        </div>
+        
+        <div class="form-element">
+            <label for="phone">Telephone</label>
+            <input type="text" name="phone" id="phone" placeholder="0123456789">
+        </div>
+        
+        <div class="form-element">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        
+        <div class="form-element">
+            <label for="passwordConfirm">Password Confirm</label>
+            <input type="password" name="passwordConfirm" id="passwordConfirm">
+        </div>
+        
+        <div class="form-element">
+            <input type="submit" id="submitButton" value="Sign Up">
+        </div>
+        
+    </div>
+
+    <!-- JQUERY INSTALL -->
+    <script src="./js/jquery-3.7.0.js"></script>
+    <!-- FILE JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
